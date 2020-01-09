@@ -1,6 +1,6 @@
 Name: cppunit
 Version: 1.12.1
-Release: 11%{?dist}
+Release: 9%{?dist}
 
 Summary: C++ unit testing framework
 # no license in files
@@ -103,12 +103,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc doc/html
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.12.1-11
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.12.1-10
-- Mass rebuild 2013-12-27
-
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.12.1-9
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
